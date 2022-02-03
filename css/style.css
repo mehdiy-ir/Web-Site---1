@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+html{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+   height: 100vh;
+   width: 100%;
+  
+}
+
+/* Start Register section */
+ #register{
+    width: 100%;
+    height: 60px;
+    background-color: #222222;
+}
+
+#register .register{
+    width: 1400px;
+    height: 60px;
+    background-color: #222222;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+
+#register .register button{
+    width: 115px;
+    height: 36px;
+    margin-left: 5px;
+}
+/* End Register section */
+#header .header-nav{
+    width: 98%;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+} 
+#header .logo{
+    width: 20%;
+    height: 100%;
+}
+#header .header-menu{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+#header ul{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#header .header-icon {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+#header .header-icon .icon-item{
+    margin-left: 2rem;
+}
+#header .header-img{
+float: left;
+height: 100%;
+min-height: 1px;
+}
